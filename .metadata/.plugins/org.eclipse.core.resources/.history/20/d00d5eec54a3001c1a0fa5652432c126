@@ -1,0 +1,16 @@
+package kr.hs.study.main;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		Class ctx = new 
+		TestBean1 obj1 = ctx.getBean("t1", "TestBean1");
+		system.out.println(obj1);
+
+		TestBean1 obj2 = ctx.getBean("t1", "TestBean1");
+		system.out.println(obj2);
+
+
+	}
+
+}

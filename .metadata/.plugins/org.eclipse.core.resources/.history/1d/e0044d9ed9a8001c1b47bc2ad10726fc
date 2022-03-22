@@ -1,0 +1,24 @@
+package kr.hs.study.beans;
+
+public class TestBean1 {
+	private DataBean1 data1;
+	private DataBean1 data2;
+	private DataBean1 data3;
+	
+	public TestBean1() {
+		System.out.println("Test1의 기본 생성자");
+	}
+
+	public DataBean1 getData1() {
+		return data1;
+	}
+
+	public DataBean1 getData2() {
+		return data2;
+	}
+
+	public Object getData3() {
+		return data3;
+	}
+	
+}
