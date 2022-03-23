@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&lt;bean id=&quot;d2&quot; class=&quot;kr.hs.study.beans.DataBean2&quot;/&gt;"/>
+		<item key="selection" value="TestBean2 obj4 = ctx.getBean(&quot;java4&quot;, TestBean2.class);"/>
 		<list key="findhistory">
+			<item value="TestBean2 obj4 = ctx.getBean(&quot;java4&quot;, TestBean2.class);"/>
 			<item value="&lt;bean id=&quot;d2&quot; class=&quot;kr.hs.study.beans.DataBean2&quot;/&gt;"/>
 			<item value="/*"/>
 			<item value="TestBean1 obj1 = ctx.getBean(&quot;t1&quot;, TestBean1.class);"/>
