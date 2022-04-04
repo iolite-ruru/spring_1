@@ -1,6 +1,0 @@
-package kr.hs.study.config;
-
-public class Snippet {
-	  동일한 타입의 bean이 2개 이상일 경우, 에러 발생.
-}
-
