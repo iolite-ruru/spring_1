@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_1\AnnotationBean\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_1\javaConfiguration\src\main\java\kr\hs\study\config\BeanConfigClass.java"/>
 			<item value="C:\_spring_1\ConstructorDI\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\Users\KimSoYeon\git\repository\SpringLifeCycle"/>
@@ -51,6 +52,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Test0406_AnnotationBean"/>
 			<item value="AnnotationBean"/>
 			<item value="Test0404_JavaDI"/>
 			<item value="JavaDI"/>
