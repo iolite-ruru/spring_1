@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&#x09;&#x09;Person person = new Person();"/>
+		<item key="selection" value="&#x09;&#x09;//AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);"/>
 		<list key="findhistory">
+			<item value="&#x09;&#x09;//AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);"/>
+			<item value="&#x09;private int data1;"/>
 			<item value="&#x09;&#x09;Person person = new Person();"/>
 			<item value="&#x0D;&#x0A;&#x09;public Person getP1() {&#x0D;&#x0A;&#x09;&#x09;return p1;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public Person getP2() {&#x0D;&#x0A;&#x09;&#x09;return p2;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;"/>
 			<item value="&lt;constructor-arg value=&quot;100&quot; index=&quot;0&quot;/&gt;"/>
 			<item value="&#x09;&#x09;GenericXmlApplicationContext ctx = new GenericXmlApplicationContext(&quot;kr/hs/study/config/config.xml&quot;);"/>
 			<item value="&#x09;&#x09;TestBean2 obj2 = ctx.getBean(&quot;t2&quot;, TestBean2.class);"/>
 			<item value="&#x09;&lt;bean id=&quot;d1&quot; class=&quot;kr.hs.study.beans.DataBean1&quot;/&gt;"/>
-			<item value="GenericXmlApplicationContext ctx = new GenericXmlApplicationContext(&quot;kr/hs/study/config/config.xml&quot;);"/>
-			<item value="TestBean2 obj4 = ctx.getBean(&quot;java4&quot;, TestBean2.class);"/>
 		</list>
 	</section>
 </section>
