@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="&#x09;&#x09;//AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);"/>
+		<item key="selection" value="&#x09;&#x09;TestBean3 obj1 = ctx.getBean(&quot;test1&quot;, TestBean3.class);"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="&#x09;&#x09;TestBean3 obj1 = ctx.getBean(&quot;test1&quot;, TestBean3.class);"/>
+			<item value="&#x09;@Bean"/>
+			<item value="&#x09;public TestBean3(int data1, String data2) {"/>
+			<item value="&#x0D;&#x0A;&#x09;public TestBean3(DataBean3 data3, DataBean4 data4) {&#x0D;&#x0A;&#x09;&#x09;this.data3 = data3;&#x0D;&#x0A;&#x09;&#x09;this.data4 = data4;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;"/>
 			<item value="&#x09;&#x09;//AnnotationConfigApplicationContext ctx2 = new AnnotationConfigApplicationContext(BeanConfigClass.class);"/>
 			<item value="&#x09;private int data1;"/>
 			<item value="&#x09;&#x09;Person person = new Person();"/>
 			<item value="&#x0D;&#x0A;&#x09;public Person getP1() {&#x0D;&#x0A;&#x09;&#x09;return p1;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public Person getP2() {&#x0D;&#x0A;&#x09;&#x09;return p2;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x09;"/>
-			<item value="&lt;constructor-arg value=&quot;100&quot; index=&quot;0&quot;/&gt;"/>
-			<item value="&#x09;&#x09;GenericXmlApplicationContext ctx = new GenericXmlApplicationContext(&quot;kr/hs/study/config/config.xml&quot;);"/>
-			<item value="&#x09;&#x09;TestBean2 obj2 = ctx.getBean(&quot;t2&quot;, TestBean2.class);"/>
-			<item value="&#x09;&lt;bean id=&quot;d1&quot; class=&quot;kr.hs.study.beans.DataBean1&quot;/&gt;"/>
 		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="774"/>
+		<item key="DIALOG_Y_ORIGIN" value="443"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
