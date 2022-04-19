@@ -9,5 +9,18 @@
 	                    http://www.springframework.org/schema/context/spring-context.xsd
 	                    http://www.springframework.org/schema/aop
 	                    http://www.springframework.org/schema/aop/spring-aop.xsd">     
-	                    
+	
+	<bean id="t1" class="kr.hs.study.beans.TestBean"/>
+	<bean id="advisor" class="kr.hs.study.advice.AdvisorClass"/>
+	
+	<aop:config>
+		<aop:aspect ref="advisor"> <!-- advisor를 aspect모듈로 만듦 -->
+			<aop:pointcut id="point" expression="execution(* method1())"/> <!-- pointcut 지정 -->
+			<!-- <aop:before method="beforeMethod" pointcut-ref="point"/> -->
+			<!-- <aop:after method="afterMethod" pointcut-ref="point"/> -->
+			<!-- <aop:around method="aroundMethod" pointcut-ref="point"/> -->
+			<!-- <aop:after-returning method="afterReturning" pointcut-ref="point"/> -->
+			<aop:after-throwing method="afterThrowing" pointcut-ref="point" throwing="e"/>
+		</aop:aspect>
+	</aop:config>
 </beans>
