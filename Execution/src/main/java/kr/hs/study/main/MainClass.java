@@ -17,6 +17,7 @@ public class MainClass {
 		obj1.method1("Spring 100");
 		obj1.method1(100, 200);
 		obj1.method2();
+		obj1.method3();
 		
 		System.out.println("=================");
 		

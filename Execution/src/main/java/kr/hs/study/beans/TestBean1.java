@@ -25,4 +25,9 @@ public class TestBean1 {
 	public void method2() {
 		System.out.println("method2 호출");
 	}
+	
+	public int method3() {
+		System.out.println("int method3 호출");
+		return 0;
+	}
 }
