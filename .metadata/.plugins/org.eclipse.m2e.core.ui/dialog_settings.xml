@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\_spring_1\Execution\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_1\AOP\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_1\AnnotationBean\src\main\java\kr\hs\study\config\config.xml"/>
 			<item value="C:\_spring_1\javaConfiguration\src\main\java\kr\hs\study\config\BeanConfigClass.java"/>
@@ -53,6 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringJDBC"/>
 			<item value="Excution"/>
 			<item value="AOP"/>
 			<item value="PersonComponent"/>
@@ -67,7 +69,6 @@
 			<item value="javaConfiguration"/>
 			<item value="AutoWireDI"/>
 			<item value="SetterDI"/>
-			<item value="ConstructorDI"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
